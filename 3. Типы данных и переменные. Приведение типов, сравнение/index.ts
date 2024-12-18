@@ -1,6 +1,9 @@
 function getLength(atr: any) {
-  if (atr === null || atr === undefined) return 0;
-  return atr.length ? atr.length : 0;
+  if (atr === null || atr === undefined) {
+    console.log(0);
+  } else {
+    console.log(atr.length ? atr.length : 0);
+  }
 }
 
 //////////////////////////////////////////////
